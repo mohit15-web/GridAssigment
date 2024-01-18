@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ecf3f9;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    /* border: 1px solid blue; */
+    height: 600px;
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px 10px;
+}
+.testimonial1{
+    border-radius: 10px;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-color: #7440c8;
+    background-position: top right 10%;
+}
+.profile{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.image img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.text{
+    font-size: 10px;
+    padding: 15px 0;
+}
+/* .text h3{
+    margin-bottom: 5px;
+} */
+.text p{
+    font-weight: 800;
+    color: rgb(194, 191, 191);
+}
+.description{
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.first{
+    color: white;
+    /* border: 1px solid blue; */
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* max-width: 550px; */
+}
+.second{
+    /* border: 1px solid blue; */
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.testimonial2{
+    border-radius: 10px;
+    background-color: rgba(72,85,106,255);
+}
+.third{
+    /* border: 1px solid blue; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.testimonial3{
+    border-radius: 10px;
+    background-color: #fefeff;
+}
+.fourth{
+    /* border: 1px solid blue; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.testimonial4{
+    border-radius: 10px;
+    background-color: #fefeff;
+}
+.fifth{
+    /* border: 1px solid blue; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+} 
+.testimonial5{
+    border-radius: 10px;
+    background-color: #19212e;
+}
+
